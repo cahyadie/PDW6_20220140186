@@ -1,0 +1,80 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Whisper", cursive;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vx;
+}
+
+video {
+  position: absolute;
+  top: -70px;
+  left: 30px;
+  width: 40%; /* Adjust the width as needed */
+}
+
+video::-webkit-media-controls {
+  /* Styles for WebKit browsers (Chrome, Safari) */
+  transform: scale(0.5); /* Scale down the controls */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set width to 100% of the viewport width */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  overflow: hidden; /* Hide any overflow from the image */
+  z-index: -1;
+}
+
+.background img {
+  width: 100%; /* Make the image fill the entire container */
+  height: 100%; /* Make the image fill the entire container */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.text {
+  color: aliceblue;
+  font-size: 18px;
+  
+}
+
+.foto img {
+  position: fixed;
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 30%;
+  height: auto;
+}
+
+.foto h2 {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+  font-size: 35px;
+  color: white;
+
+}
+
+.audio {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  margin: 100px;
+}
+
+.audio h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  
+}
